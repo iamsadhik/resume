@@ -14,6 +14,28 @@ cd <your-repo>
 
 ---
 
+## Fork and use your own resume
+
+**1. Fork the repo and clone your fork.**
+
+**2. Replace `resume.json` with your own data.**
+
+**3. Enable GitHub Actions + Pages in your fork.**
+- Repo → Settings → Actions → allow workflows
+- Repo → Settings → Pages → Source: GitHub Actions
+
+**4. Tag a release to generate your PDF.**
+```bash
+git tag vYYYY.MM.DD
+git push origin vYYYY.MM.DD
+```
+
+Your PDF will be available at:
+- `https://<OWNER>.github.io/<REPO>/resume.pdf`
+- GitHub Releases → latest tag asset
+
+---
+
 ## How it works
 
 ```
