@@ -34,7 +34,7 @@
     "title": "Summary",
     "columns": 1,
     "hidden": false,
-    "content": "<p>Full-stack developer who has spent 3+ years turning complex problems into clean, scalable solutions. From building enterprise analytics platforms with <strong>React</strong> and <strong>Next.js</strong> to architecting <strong>microservices</strong> with <strong>NestJS</strong>, <strong>Rust</strong>, and <strong>Golang</strong> - I bring end-to-end ownership to everything I ship. Proven track record of owning large-scale revamps, delivering embeddable API-driven products, and working with <strong>gRPC</strong>, <strong>GraphQL</strong>, <strong>REST</strong>, <strong>PostgreSQL</strong>, and <strong>Docker</strong>. At my best in startups where speed and craftsmanship both matter.</p>"
+    "content": "<p>Full-stack developer with 3+ years building scalable web products across <strong>React</strong>/<strong>Next.js</strong> and <strong>NestJS</strong>. Experienced in microservices and data platforms using <strong>Rust</strong>/<strong>Golang</strong>, <strong>gRPC</strong>/<strong>GraphQL</strong>/<strong>REST</strong>, <strong>PostgreSQL</strong>, and <strong>Docker</strong>, with a focus on fast, high-quality delivery in startup environments.</p>"
   },
   "sections": {
     "profiles": {
@@ -52,7 +52,7 @@
           "id": "019cd0ee-5626-716a-9586-134b07a4e1d3",
           "hidden": false,
           "options": {
-            "showLinkInTitle": false
+            "showLinkInTitle": true
           },
           "company": "Tursio",
           "position": "Software Engineer",
@@ -62,14 +62,14 @@
             "url": "https://tursio.ai",
             "label": ""
           },
-          "description": "<ul><li><p>Orchestrated the <strong>full product and website revamp</strong>, delivering a modernized experience across search, insights, data model, and semantic table interfaces.</p></li><li><p>Boosted <strong>website performance and SEO</strong> by implementing lazy image loading, schema markup, accessibility improvements, and resource page optimizations.</p></li><li><p>Drove <strong>end-to-end feature delivery</strong> across the product - from natural language search and data model enhancements to query validation - enabling enterprise users to extract insights from their databases effortlessly.</p></li><li><p>Shipped <strong>data visualization and analytics UI</strong> including bar graphs, chart filters, and metric tabs, empowering knowledge workers to query and analyze enterprise databases through natural language.</p></li><li><p>Built and launched an <strong>embeddable search portal</strong>, enabling customers to integrate Tursio's AI-powered search directly into their own websites via a simple script tag.</p></li></ul><p></p>",
+          "description": "<ul><li><p>Orchestrated the <strong>full product and website revamp</strong>, modernizing search, insights, data model, and semantic table experiences.</p></li><li><p>Lifted <strong>PageSpeed</strong> to 90+ and achieved <strong>SEO ~100</strong> and <strong>Accessibility ~95</strong> via lazy loading, accessibility fixes, and schema markup for agent support.</p></li><li><p>Drove <strong>end-to-end feature delivery</strong> from natural language search and data model enhancements to query validation for enterprise insights.</p></li><li><p>Shipped <strong>data visualization and analytics UI</strong> including bar charts, filters, and metric tabs for self-serve analysis.</p></li><li><p>Built and launched an <strong>embeddable search portal</strong> that lets customers integrate AI-powered search via a simple script tag.</p></li></ul><p></p>",
           "roles": []
         },
         {
           "id": "t7cm8in2iadwo43rs406f9zx",
           "hidden": false,
           "options": {
-            "showLinkInTitle": false
+            "showLinkInTitle": true
           },
           "company": "Gida Technologies",
           "position": "Software Developer",
@@ -79,7 +79,7 @@
             "url": "https://gida.in/",
             "label": ""
           },
-          "description": "<ul><li><p>Shipped full-stack web applications for <strong>Max Group</strong> and <strong>HDFC</strong> using <strong>Next.js</strong> and <strong>NestJS</strong>, delivering robust and scalable products used by thousands of enterprise users.</p></li><li><p>Engineered and integrated <strong>RESTful APIs</strong> powering efficient data management, user authentication, and core business workflows across multiple client platforms.</p></li><li><p>Leveraged <strong>Next.js SSR and SSG</strong> to significantly improve application performance, page load times, and SEO across all products.</p></li><li><p>Took end-to-end ownership of multiple products - <strong>AgeEasyByAntara</strong>, <strong>Ergo Self-Help Portal</strong>, and <strong>Convenex Portal</strong> - from development through production deployment.</p></li></ul>",
+          "description": "<ul><li><p>Shipped full-stack web applications for <strong>Max Group</strong> and <strong>HDFC</strong> using <strong>Next.js</strong> and <strong>NestJS</strong>, serving thousands of enterprise users.</p></li><li><p>Improved performance and SEO across products with <strong>Next.js SSR/SSG</strong> and optimized page delivery.</p></li><li><p>Owned delivery of <strong>AgeEasyByAntara</strong>, <strong>Ergo Self-Help Portal</strong>, and <strong>Convenex Portal</strong> through production.</p></li></ul>",
           "roles": []
         },
         {
@@ -88,26 +88,15 @@
           "company": "BurdenOff Consultancy Services",
           "position": "Full-Stack Developer Intern",
           "location": "Remote",
-          "period": "Feb 2023 - Jun 2023",
+          "period": "Jun 2022 - Dec 2022, Feb 2023 - Jun 2023",
+          "options": {
+            "showLinkInTitle": true
+          },
           "website": {
             "url": "https://burdenoff.com/",
             "label": ""
           },
-          "description": "<ul><li><p>Architected a <strong>provider-agnostic payment system</strong> using an adapter pattern, decoupling the platform from any single payment provider and future-proofing the billing infrastructure.</p></li><li><p>Integrated <strong>Stripe</strong> with webhook support and 2-way verification, ensuring secure and reliable transaction validation end-to-end.</p></li><li><p>Built the <strong>PaymentMethod model</strong> enabling users to securely store payment methods and supporting recurring payments independent of the underlying provider.</p></li><li><p>Designed and shipped a seamless <strong>transaction flow</strong> powering the platform's core billing experience.</p></li></ul>",
-          "roles": []
-        },
-        {
-          "id": "iv9pxqv9tgw2xho41rm5cy5s",
-          "hidden": false,
-          "company": "BurdenOff Consultancy Services",
-          "position": "Full-Stack Developer Intern",
-          "location": "Remote",
-          "period": "Jun 2022 - Dec 2022",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<ul><li><p>Engineered and enhanced multiple core product modules - <strong>Payment</strong>, <strong>Notification</strong>, <strong>Billing/Account</strong>, <strong>Wallet</strong>, <strong>Store</strong>, and <strong>Product</strong> - using <strong>GraphQL</strong>, <strong>TypeScript</strong>, and <strong>ArangoDB</strong>.</p></li><li><p>Designed a <strong>type-safe model architecture</strong> that strengthened security, eliminated potential vulnerabilities, and set a clean foundation for scalable feature development.</p></li><li><p>Delivered end-to-end feature work across a complex multi-module platform, contributing to a consistent and reliable user-facing product experience.</p></li></ul>",
+          "description": "<ul><li><p>Architected a <strong>provider-agnostic payment system</strong> using an adapter pattern to future-proof billing.</p></li><li><p>Integrated <strong>Stripe</strong> with webhooks and two-way verification for secure transaction validation.</p></li><li><p>Built the <strong>PaymentMethod</strong> model and transaction flow to support secure, recurring payments.</p></li><li><p>Enhanced core modules (<strong>Payment</strong>, <strong>Notification</strong>, <strong>Billing/Account</strong>, <strong>Wallet</strong>, <strong>Store</strong>, <strong>Product</strong>) using <strong>GraphQL</strong>, <strong>TypeScript</strong>, and <strong>ArangoDB</strong>.</p></li><li><p>Designed a <strong>type-safe model architecture</strong> that strengthened security and reduced vulnerabilities.</p></li></ul>",
           "roles": []
         },
         {
@@ -117,6 +106,9 @@
           "position": "React Developer Intern",
           "location": "Remote",
           "period": "Jun 2021 - Jan 2022",
+          "options": {
+            "showLinkInTitle": true
+          },
           "website": {
             "url": "",
             "label": ""
@@ -167,7 +159,36 @@
       "title": "Projects",
       "columns": 1,
       "hidden": false,
-      "items": []
+      "items": [
+        {
+          "id": "proj-resume",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "name": "Resume",
+          "period": "",
+          "website": {
+            "url": "https://github.com/armedev/resume",
+            "label": ""
+          },
+          "description": "<ul><li><p>Version-controlled resume with automated PDF generation via GitHub Actions and Docker.</p></li><li><p>Tag-based releases publish the PDF to GitHub Pages and GitHub Releases.</p></li><li><p>Stack: <strong>Python</strong>, <strong>Docker</strong>, <strong>GitHub Actions</strong>.</p></li></ul>"
+        },
+        {
+          "id": "proj-smart-skills",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "name": "Smart Skills",
+          "period": "",
+          "website": {
+            "url": "https://github.com/armedev/smart-skills",
+            "label": ""
+          },
+          "description": "<ul><li><p>CLI to manage and sync AI agent skill configs across OpenCode, Neovim, Cursor, and Claude Code.</p></li><li><p>Rust-based standalone binary with validation for safe skill formats and zero npm dependencies.</p></li><li><p>Stack: <strong>Rust</strong>, <strong>CLI</strong>.</p></li></ul>"
+        }
+      ]
     },
     "skills": {
       "title": "Skills",
@@ -178,18 +199,15 @@
           "id": "po008pxu5zbyy8pnftkczz5k",
           "hidden": false,
           "icon": "",
-          "name": "Typescript",
+          "name": "TypeScript",
           "proficiency": "",
           "level": 0,
           "keywords": [
-            "TS",
-            "Javascript",
-            "Programming Language",
-            "Libraries",
+            "JavaScript",
             "esbuild",
             "swc",
-            "webpack",
-            "rollup"
+            "Webpack",
+            "Rollup"
           ]
         },
         {
@@ -200,10 +218,9 @@
           "proficiency": "",
           "level": 0,
           "keywords": [
-            "Clap",
-            "cli",
             "Actix-web",
-            "Programming Language"
+            "CLI",
+            "Clap"
           ]
         },
         {
@@ -214,84 +231,66 @@
           "proficiency": "",
           "level": 0,
           "keywords": [
-            "Websockets",
-            "Micro-services",
+            "WebSockets",
+            "Microservices",
             "gorilla/websocket"
-          ]
-        },
-        {
-          "id": "ohrx7xwjg1qwrlbeiicxh2ts",
-          "hidden": false,
-          "icon": "",
-          "name": "c++",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "cpp",
-            "Competitive programming",
-            "Problem solving"
           ]
         },
         {
           "id": "ibamy0zt8wtzrnwbofzcjfyo",
           "hidden": false,
           "icon": "",
-          "name": "ReactJS",
+          "name": "React",
           "proficiency": "",
           "level": 0,
           "keywords": [
             "Hooks",
             "Context",
-            "Interceptors",
             "Custom Hooks",
-            "Views",
-            "Stores",
             "Zustand",
-            "Framer-motion"
+            "Framer Motion"
           ]
         },
         {
           "id": "hu0cumobui6bj4vq476tc54c",
           "hidden": false,
           "icon": "",
-          "name": "Nextjs",
+          "name": "Next.js",
           "proficiency": "",
           "level": 0,
           "keywords": [
-            "Framework",
-            "SSG",
             "SSR",
+            "SSG",
             "ISR",
             "CSR",
-            "Pagespeed Insights"
+            "PageSpeed Insights"
           ]
         },
         {
           "id": "abf6jzwydte563skbd71g7s8",
           "hidden": false,
           "icon": "",
-          "name": "Solidjs",
+          "name": "SolidJS",
           "proficiency": "",
           "level": 0,
           "keywords": [
             "Signals",
-            "Events",
             "Reactive UI",
-            "Performant Views"
+            "Performance"
           ]
         },
         {
           "id": "ur11lyumqzg2upp3pc9zal8c",
           "hidden": false,
           "icon": "",
-          "name": "Nestjs",
+          "name": "NestJS",
           "proficiency": "",
           "level": 0,
           "keywords": [
-            "Nodejs",
-            "axios",
-            "Micro-services",
-            "Middlewares"
+            "Node.js",
+            "Microservices",
+            "Middleware",
+            "Axios"
           ]
         },
         {
@@ -302,10 +301,10 @@
           "proficiency": "",
           "level": 0,
           "keywords": [
-            "Database",
             "Queries",
+            "Indexes",
             "Relations",
-            "Indexes"
+            "Database Design"
           ]
         }
       ]
@@ -314,36 +313,7 @@
       "title": "Languages",
       "columns": 5,
       "hidden": false,
-      "items": [
-        {
-          "id": "utg2qq2uiz93vh3n9bwzf117",
-          "hidden": false,
-          "language": "English",
-          "fluency": "",
-          "level": 0
-        },
-        {
-          "id": "umyxtwonlirvrqm98o0dodg9",
-          "hidden": false,
-          "language": "Hindi",
-          "fluency": "",
-          "level": 0
-        },
-        {
-          "id": "byp3yqlxw9ctpe51tlmauqzy",
-          "hidden": false,
-          "language": "Kannada",
-          "fluency": "",
-          "level": 0
-        },
-        {
-          "id": "uu4t3hjowe1ekjd8i1x5en6p",
-          "hidden": false,
-          "language": "Urdu",
-          "fluency": "",
-          "level": 0
-        }
-      ]
+      "items": []
     },
     "interests": {
       "title": "Interests",
