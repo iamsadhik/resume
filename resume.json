@@ -12,7 +12,7 @@
     "shadowWidth": 0
   },
   "basics": {
-    "name": "Abdul",
+    "name": "Abdul Hameed",
     "headline": "Full Stack Developer",
     "email": "arbazcr77@gmail.com",
     "phone": "9353960854",
@@ -41,19 +41,7 @@
       "title": "Profiles",
       "columns": 1,
       "hidden": false,
-      "items": [
-        {
-          "id": "cuxj0bouz9hke0fc0b0tesib",
-          "hidden": false,
-          "icon": "github",
-          "network": "Github",
-          "username": "armedev",
-          "website": {
-            "url": "https://github.com/armedev",
-            "label": ""
-          }
-        }
-      ]
+      "items": []
     },
     "experience": {
       "title": "Experience",
@@ -74,7 +62,7 @@
             "url": "https://tursio.ai",
             "label": ""
           },
-          "description": "<ul><li><p>Orchestrated the <strong>full product and website revamp</strong>, delivering a modernized experience across search, insights, data model, and semantic table interfaces.</p></li><li><p>Boosted <strong>website performance and SEO</strong> by implementing lazy image loading, schema markup, accessibility improvements, and resource page optimizations.</p></li><li><p>Drove <strong>end-to-end feature delivery</strong> across the product - from natural language search and data model enhancements to query validation - enabling enterprise users to extract insights from their databases effortlessly.</p></li><li><p>Shipped <strong>data visualization and analytics UI</strong> including bar graphs, chart filters, and metric tabs, empowering knowledge workers to query and analyze enterprise databases through natural language.</p></li><li><p>Built and launched an <strong>embeddable search portal</strong>, enabling customers to integrate Tursio's AI-powered search directly into their own websites via a simple script tag.</p></li></ul>",
+          "description": "<ul><li><p>Orchestrated the <strong>full product and website revamp</strong>, delivering a modernized experience across search, insights, data model, and semantic table interfaces.</p></li><li><p>Boosted <strong>website performance and SEO</strong> by implementing lazy image loading, schema markup, accessibility improvements, and resource page optimizations.</p></li><li><p>Drove <strong>end-to-end feature delivery</strong> across the product - from natural language search and data model enhancements to query validation - enabling enterprise users to extract insights from their databases effortlessly.</p></li><li><p>Shipped <strong>data visualization and analytics UI</strong> including bar graphs, chart filters, and metric tabs, empowering knowledge workers to query and analyze enterprise databases through natural language.</p></li><li><p>Built and launched an <strong>embeddable search portal</strong>, enabling customers to integrate Tursio's AI-powered search directly into their own websites via a simple script tag.</p></li></ul><p></p>",
           "roles": []
         },
         {
@@ -448,16 +436,10 @@
             "awards",
             "volunteer",
             "references",
-            "publications"
-          ],
-          "sidebar": []
-        },
-        {
-          "fullWidth": true,
-          "main": [
+            "publications",
             "education",
-            "certifications",
             "skills",
+            "certifications",
             "languages"
           ],
           "sidebar": []
