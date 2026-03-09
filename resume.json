@@ -6,26 +6,32 @@
     "rotation": 0,
     "aspectRatio": 1,
     "borderRadius": 0,
-    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderColor": "rgba(0,0,0,0)",
     "borderWidth": 0,
-    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowColor": "rgba(0,0,0,0.5)",
     "shadowWidth": 0
   },
   "basics": {
-    "name": "Abdul Hameed",
-    "headline": "Full Stack Developer",
-    "email": "arbazcr77@gmail.com",
-    "phone": "9353960854",
+    "name": "Mohammed Sadiq M",
+    "headline": "Software Engineer",
+    "email": "mohammedsadiq6531@gmail.com",
+    "phone": "+919742235797",
     "location": "Bangalore, India",
     "website": {
-      "url": "https://arme.dev",
-      "label": "Portfolio"
+      "url": "",
+      "label": ""
     },
     "customFields": [
       {
-        "id": "019cd0f7-2f94-75ce-8af4-3e496439c68e",
+        "id": "github",
         "icon": "github-logo",
-        "text": "https://github.com/armedev",
+        "text": "https://github.com/Sadiq",
+        "link": ""
+      },
+      {
+        "id": "linkedin",
+        "icon": "linkedin-logo",
+        "text": "https://linkedin.com/in/SadiqM",
         "link": ""
       }
     ]
@@ -34,22 +40,16 @@
     "title": "Summary",
     "columns": 1,
     "hidden": false,
-    "content": "<p>Full-stack developer with 3+ years building scalable web products and <strong>system design</strong> across <strong>React</strong>/<strong>Next.js</strong> and <strong>NestJS</strong>. Experienced in <strong>microservices</strong> and data platforms using <strong>Rust</strong>/<strong>Golang</strong>, <strong>gRPC</strong>/<strong>GraphQL</strong>/<strong>REST</strong>, <strong>PostgreSQL</strong>, and <strong>Docker</strong>, delivering fast, high-quality results in startup environments.</p>"
+    "content": "<p>Software engineer with experience building scalable web platforms and data-driven products using <strong>React</strong>, <strong>Next.js</strong>, and modern frontend architectures. Experienced in developing analytics platforms, semantic data modeling tools, AI-powered search interfaces, and high-performance enterprise applications.</p>"
   },
   "sections": {
-    "profiles": {
-      "title": "Profiles",
-      "columns": 1,
-      "hidden": false,
-      "items": []
-    },
     "experience": {
       "title": "Experience",
       "columns": 1,
       "hidden": false,
       "items": [
         {
-          "id": "019cd0ee-5626-716a-9586-134b07a4e1d3",
+          "id": "tursio-exp",
           "hidden": false,
           "options": {
             "showLinkInTitle": true
@@ -57,136 +57,21 @@
           "company": "Tursio",
           "position": "Software Engineer",
           "location": "Bangalore, India",
-          "period": "June 2025 - Present",
+          "period": "May 2025 - Present",
           "website": {
             "url": "https://tursio.ai",
             "label": ""
           },
-          "description": "<ul><li><p>Orchestrated the <strong>full product and website revamp</strong>, modernizing search, insights, data model, and semantic table experiences.</p></li><li><p>Lifted <strong>PageSpeed</strong> to 90+ and achieved <strong>SEO ~100</strong> and <strong>Accessibility ~95</strong> via lazy loading, accessibility fixes, and schema markup for agent support.</p></li><li><p>Drove <strong>end-to-end feature delivery</strong> from natural language search and data model enhancements to query validation for enterprise insights.</p></li><li><p>Shipped <strong>data visualization and analytics UI</strong> including bar charts, filters, and metric tabs for self-serve analysis.</p></li><li><p>Built and launched an <strong>embeddable search portal</strong> that lets customers integrate AI-powered search via a simple script tag.</p></li></ul><p></p>",
-          "roles": []
+          "description": "<ul><li><p>Designed and developed an <strong>interactive semantic data modeling interface</strong> using <strong>React Flow</strong>, enabling users to visually define tables, relationships, joins, and transformations to build semantic layers for enterprise analytics.</p></li><li><p>Implemented <strong>natural language search capabilities</strong> allowing users to query enterprise datasets in plain English, powered by semantic context graphs and structured data models to deliver accurate <strong>AI-driven insights</strong>.</p></li><li><p>Built <strong>interactive analytics and data visualization interfaces</strong>, including bar charts, dynamic filters, and metric-driven dashboards enabling <strong>self-service insights</strong> for business users.</p></li><li><p>Improved search page performance and reduced load times by migrating rendering and data handling to a <strong>client-side React architecture</strong>, enhancing responsiveness and user experience.</p></li></ul>"
         },
         {
-          "id": "t7cm8in2iadwo43rs406f9zx",
+          "id": "gida-exp",
           "hidden": false,
-          "options": {
-            "showLinkInTitle": true
-          },
           "company": "Gida Technologies",
-          "position": "Software Developer",
+          "position": "Senior Frontend Developer",
           "location": "Bangalore, India",
-          "period": "September 2023 - May 2025",
-          "website": {
-            "url": "https://gida.in/",
-            "label": ""
-          },
-          "description": "<ul><li><p>Shipped full-stack web applications for <strong>Max Group</strong> and <strong>HDFC</strong> using <strong>Next.js</strong> and <strong>NestJS</strong>, serving thousands of enterprise users.</p></li><li><p>Improved performance and SEO across products with <strong>Next.js SSR/SSG</strong> and optimized page delivery.</p></li><li><p>Owned delivery of <strong>AgeEasyByAntara</strong>, <strong>Ergo Self-Help Portal</strong>, and <strong>Convenex Portal</strong> through production.</p></li></ul>",
-          "roles": []
-        },
-        {
-          "id": "sgwvrhepmf3j6quyc9q5mbkg",
-          "hidden": false,
-          "company": "BurdenOff Consultancy Services",
-          "position": "Full-Stack Developer Intern",
-          "location": "Remote",
-          "period": "Jun 2022 - Dec 2022, Feb 2023 - Jun 2023",
-          "options": {
-            "showLinkInTitle": true
-          },
-          "website": {
-            "url": "https://burdenoff.com/",
-            "label": ""
-          },
-          "description": "<ul><li><p>Architected a <strong>provider-agnostic payment system</strong> using an adapter pattern to future-proof billing.</p></li><li><p>Integrated <strong>Stripe</strong> with webhooks and two-way verification for secure transaction validation.</p></li><li><p>Built the <strong>PaymentMethod</strong> model and transaction flow to support secure, recurring payments.</p></li><li><p>Enhanced core modules (<strong>Payment</strong>, <strong>Notification</strong>, <strong>Billing/Account</strong>, <strong>Wallet</strong>, <strong>Store</strong>, <strong>Product</strong>) using <strong>GraphQL</strong>, <strong>TypeScript</strong>, and <strong>ArangoDB</strong>.</p></li><li><p>Designed a <strong>type-safe model architecture</strong> that strengthened security and reduced vulnerabilities.</p></li></ul>",
-          "roles": []
-        },
-        {
-          "id": "bohmd5372jicppigk73gqepw",
-          "hidden": false,
-          "company": "NETART-INDIA",
-          "position": "React Developer Intern",
-          "location": "Remote",
-          "period": "Jun 2021 - Jan 2022",
-          "options": {
-            "showLinkInTitle": true
-          },
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<ul><li><p>Built an <strong>R&D SEO dashboard</strong> using <strong>React</strong> and <strong>FireCMS</strong>, enabling the team to generate and track SEO reports from a single unified interface.</p></li><li><p>Engineered a <strong>scheduler</strong> to eliminate data capture clashes and automated the entire reporting pipeline using <strong>UIvision</strong> and <strong>App Script API</strong>, significantly reducing manual workload.</p></li></ul>",
-          "roles": []
-        }
-      ]
-    },
-    "education": {
-      "title": "Education",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "o7qg2uev50o1qcbkwesmukbx",
-          "hidden": false,
-          "school": "Jawaharlal Nehru National College of Engineering",
-          "degree": "B.E.",
-          "area": "Information Technology",
-          "grade": "",
-          "location": "",
-          "period": "2019 - 2023",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "xrmlj6ijxorup7breozgmpp7",
-          "hidden": false,
-          "school": "Sri Aurobindo Pre University Independent college",
-          "degree": "PUC",
-          "area": "Science",
-          "grade": "",
-          "location": "",
-          "period": "2017 - 2019",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": ""
-        }
-      ]
-    },
-    "projects": {
-      "title": "Projects",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "proj-resume",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": true
-          },
-          "name": "Resume",
-          "period": "",
-          "website": {
-            "url": "https://github.com/armedev/resume",
-            "label": ""
-          },
-          "description": "<ul><li><p>Version-controlled resume with automated PDF generation via GitHub Actions and Docker.</p></li><li><p>Tag-based releases publish the PDF to GitHub Pages and GitHub Releases.</p></li><li><p>Stack: <strong>Python</strong>, <strong>Docker</strong>, <strong>GitHub Actions</strong>.</p></li></ul>"
-        },
-        {
-          "id": "proj-smart-skills",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": true
-          },
-          "name": "Smart Skills",
-          "period": "",
-          "website": {
-            "url": "https://github.com/armedev/smart-skills",
-            "label": ""
-          },
-          "description": "<ul><li><p>CLI to manage and sync AI agent skill configs across OpenCode, Neovim, Cursor, and Claude Code.</p></li><li><p>Rust-based standalone binary with validation for safe skill formats and zero npm dependencies.</p></li><li><p>Stack: <strong>Rust</strong>, <strong>CLI</strong>.</p></li></ul>"
+          "period": "March 2022 - May 2025",
+          "description": "<ul><li><p>Worked with enterprise clients across healthcare, insurance, and digital products building scalable web and mobile applications.</p></li><li><p>Collaborated with cross-functional teams to design performant frontend architectures and deliver production-grade applications.</p></li></ul><p><strong>Client Projects:</strong></p><ul><li><p><strong>HDFC ERGO Self-Help</strong>: Lead frontend developer implementing claims processing, document uploads, and insurance workflows. Integrated <strong>Strapi CMS</strong>. Tech: <strong>Next.js</strong>.</p></li><li><p><strong>HDFC ERGO ConveneX</strong>: Built an event management platform with admin portal, media gallery, and real-time event updates using <strong>Firebase</strong>. Tech: <strong>Next.js, Flutter</strong>.</p></li><li><p><strong>Antara AGEasy</strong>: Developed customer platform and admin portal including appointment scheduling, warehouse management, and recommendation engine. Improved SEO and performance using <strong>SSR</strong>, <strong>SSG</strong>, lazy loading and code splitting. Tech: <strong>Next.js, Flutter Web</strong>.</p></li><li><p><strong>Lyfe Apps (Lupin Digital Health)</strong>: Built healthcare apps integrating <strong>Google Fit</strong>, <strong>Apple Health</strong>, and <strong>iHealth</strong>. Implemented real-time consultations using <strong>PubNub</strong> and <strong>Jitsi</strong>. Tech: <strong>React Native, Next.js</strong>.</p></li><li><p><strong>Cubbies App</strong>: Built a children's interactive storytelling and music application using <strong>BLE</strong> connectivity to interact with a smart music box.</p></li><li><p><strong>HDFC ERGO Baltics Prototype</strong>: Developed prototype frontend demonstrating insurance purchase flows including policy selection and premium calculation.</p></li></ul>"
         }
       ]
     },
@@ -196,269 +81,44 @@
       "hidden": false,
       "items": [
         {
-          "id": "po008pxu5zbyy8pnftkczz5k",
-          "hidden": false,
-          "icon": "",
+          "name": "JavaScript",
+          "keywords": ["ES6+", "Async Programming"]
+        },
+        {
           "name": "TypeScript",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "JavaScript",
-            "esbuild",
-            "swc",
-            "Webpack",
-            "Rollup"
-          ]
+          "keywords": ["Type Safety", "Large Scale Applications"]
         },
         {
-          "id": "hq6luekf5az4p2svxmjveyey",
-          "hidden": false,
-          "icon": "",
-          "name": "Rust",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "Actix-web",
-            "CLI",
-            "Clap"
-          ]
-        },
-        {
-          "id": "a1c5vnbzsr8hm9c9lr8m72sb",
-          "hidden": false,
-          "icon": "",
-          "name": "Golang",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "WebSockets",
-            "Microservices",
-            "gorilla/websocket"
-          ]
-        },
-        {
-          "id": "ibamy0zt8wtzrnwbofzcjfyo",
-          "hidden": false,
-          "icon": "",
           "name": "React",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "Hooks",
-            "Context",
-            "Custom Hooks",
-            "Zustand",
-            "Framer Motion"
-          ]
+          "keywords": ["Hooks", "State Management", "Component Architecture"]
         },
         {
-          "id": "hu0cumobui6bj4vq476tc54c",
-          "hidden": false,
-          "icon": "",
           "name": "Next.js",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "SSR",
-            "SSG",
-            "ISR",
-            "CSR",
-            "PageSpeed Insights"
-          ]
+          "keywords": ["SSR", "SSG", "Performance Optimization", "SEO"]
         },
         {
-          "id": "abf6jzwydte563skbd71g7s8",
-          "hidden": false,
-          "icon": "",
-          "name": "SolidJS",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "Signals",
-            "Reactive UI",
-            "Performance"
-          ]
+          "name": "React Native",
+          "keywords": ["Cross-platform mobile development"]
         },
         {
-          "id": "ur11lyumqzg2upp3pc9zal8c",
-          "hidden": false,
-          "icon": "",
-          "name": "NestJS",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "Node.js",
-            "Microservices",
-            "Middleware",
-            "Axios"
-          ]
+          "name": "Flutter",
+          "keywords": ["Mobile Apps", "Flutter Web"]
         },
         {
-          "id": "k55e9uueweh8lhw116t5ba38",
-          "hidden": false,
-          "icon": "",
-          "name": "PostgreSQL",
-          "proficiency": "",
-          "level": 0,
-          "keywords": [
-            "Queries",
-            "Indexes",
-            "Relations",
-            "Database Design"
-          ]
+          "name": "Data Visualization",
+          "keywords": ["Charts", "Dashboards", "Analytics UI"]
+        },
+        {
+          "name": "Tools",
+          "keywords": ["Git", "Jira", "Figma"]
         }
       ]
-    },
-    "languages": {
-      "title": "Languages",
-      "columns": 5,
-      "hidden": false,
-      "items": []
-    },
-    "interests": {
-      "title": "Interests",
-      "columns": 1,
-      "hidden": false,
-      "items": []
-    },
-    "awards": {
-      "title": "Awards",
-      "columns": 1,
-      "hidden": false,
-      "items": []
-    },
-    "certifications": {
-      "title": "Certifications",
-      "columns": 1,
-      "hidden": true,
-      "items": [
-        {
-          "id": "q1ia9nlv1ih7fqsmjscsog5o",
-          "hidden": true,
-          "title": "Python",
-          "issuer": "HackerRank",
-          "date": "10 Jun, 2021",
-          "website": {
-            "url": "https://www.hackerrank.com/certificates/6fe36ffea206",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "s3uzcgwpaxa3qf1y1ve7gr2d",
-          "hidden": true,
-          "title": "Javascript",
-          "issuer": "HackerRank",
-          "date": "10 Jun, 2021",
-          "website": {
-            "url": "https://www.hackerrank.com/certificates/93eba9004093",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "gp40rdkmcabpid8l4n83kcn6",
-          "hidden": true,
-          "title": "Problem Solving",
-          "issuer": "HackerRank",
-          "date": "22 Feb, 2022",
-          "website": {
-            "url": "https://www.hackerrank.com/certificates/4490b2b6c2bb",
-            "label": ""
-          },
-          "description": ""
-        }
-      ]
-    },
-    "publications": {
-      "title": "Publications",
-      "columns": 1,
-      "hidden": false,
-      "items": []
-    },
-    "volunteer": {
-      "title": "Volunteering",
-      "columns": 1,
-      "hidden": false,
-      "items": []
-    },
-    "references": {
-      "title": "References",
-      "columns": 1,
-      "hidden": false,
-      "items": []
     }
   },
-  "customSections": [],
   "metadata": {
     "template": "onyx",
     "layout": {
-      "sidebarWidth": 35,
-      "pages": [
-        {
-          "fullWidth": false,
-          "main": [
-            "summary",
-            "profiles",
-            "experience",
-            "projects",
-            "interests",
-            "awards",
-            "volunteer",
-            "references",
-            "publications",
-            "education",
-            "skills",
-            "certifications",
-            "languages"
-          ],
-          "sidebar": []
-        }
-      ]
-    },
-    "css": {
-      "enabled": true,
-      "value": "h4 {\n\tmargin-bottom: 4px;\n}"
-    },
-    "page": {
-      "gapX": 4,
-      "gapY": 6,
-      "marginX": 30,
-      "marginY": 30,
-      "format": "a4",
-      "locale": "en-US",
-      "hideIcons": false
-    },
-    "design": {
-      "level": {
-        "icon": "star",
-        "type": "circle"
-      },
-      "colors": {
-        "primary": "rgba(71, 85, 105, 1)",
-        "text": "rgba(0, 0, 0, 1)",
-        "background": "rgba(255, 255, 255, 1)"
-      }
-    },
-    "typography": {
-      "body": {
-        "fontFamily": "Open Sans",
-        "fontWeights": [
-          "400",
-          "600"
-        ],
-        "fontSize": 10.5,
-        "lineHeight": 1.5
-      },
-      "heading": {
-        "fontFamily": "Open Sans",
-        "fontWeights": [
-          "600"
-        ],
-        "fontSize": 13.5,
-        "lineHeight": 1.5
-      }
-    },
-    "notes": ""
+      "sidebarWidth": 35
+    }
   }
 }
