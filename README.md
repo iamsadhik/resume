@@ -4,6 +4,8 @@ My resume, version-controlled and generated as a PDF on tag releases.
 
 Latest PDF (after tag release): `https://<OWNER>.github.io/<REPO>/resume.pdf`
 
+Thanks to RxResume for the awesome resume builder: https://github.com/AmruthPillai/Reactive-Resume
+
 ## Setup
 
 **1. Clone the repo.**
