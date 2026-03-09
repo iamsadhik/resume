@@ -108,20 +108,6 @@ python3 scripts/generate_pdf.py resume.json output/resume.pdf
 
 ---
 
-## Files
-
-```
-resume/
-├── resume.json                  # source of truth — edit this
-├── output/
-│   └── .gitkeep                 # keep the output directory
-└── scripts/
-    ├── generate_pdf.py          # generates the PDF via RxResume + Docker
-    ├── local_pdf.sh             # quick local test runner
-    └── export_pdf.sh            # wrapper for generate_pdf.py
-
----
-
 ## Repo safeguards checklist
 
 **Branch protection**
@@ -139,4 +125,19 @@ resume/
 **Repository settings**
 - Disable Actions from forks if you want to control releases
 - Keep `output/resume.pdf` untracked to avoid history bloat
+
+---
+
+## Files
+
+```
+resume/
+├── resume.json                  # source of truth — edit this
+├── output/
+│   └── .gitkeep                 # keep the output directory
+└── scripts/
+    ├── generate_pdf.py          # generates the PDF via RxResume + Docker
+    ├── local_pdf.sh             # quick local test runner
+    └── export_pdf.sh            # wrapper for generate_pdf.py
+
 ```
