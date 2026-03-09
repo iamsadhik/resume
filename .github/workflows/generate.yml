@@ -27,6 +27,7 @@ jobs:
         run: docker load -i /tmp/docker-images.tar
 
       - name: Pull Docker images
+        if: steps.docker-cache.outputs.cache-hit != 'true'
         run: |
           IMAGES="postgres:16-alpine ghcr.io/browserless/chromium:v2.18.0 amruthpillai/reactive-resume@sha256:f8e8ec1321049ee2763453f3df4d414b012e5dcf92d3724ef86e9bbd8a55e708"
           for image in $IMAGES; do
