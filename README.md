@@ -40,6 +40,22 @@ Artifacts:
 
 ---
 
+## Custom domain setup
+
+Use a subdomain like `resume.arme.dev` for the PDF.
+
+1. DNS (Netlify DNS)
+   - Add a CNAME record:
+     - Name: `resume`
+     - Value: `<YOUR_GITHUB_USERNAME>.github.io`
+2. GitHub repo → Settings → Pages
+   - Source: GitHub Actions
+   - Custom domain: `resume.arme.dev`
+   - Enable HTTPS once available
+3. Trigger a new tag release to publish to the domain
+
+---
+
 ## Fork and use your own resume
 
 **1. Fork the repo and clone your fork.**
@@ -103,4 +119,24 @@ resume/
     ├── generate_pdf.py          # generates the PDF via RxResume + Docker
     ├── local_pdf.sh             # quick local test runner
     └── export_pdf.sh            # wrapper for generate_pdf.py
+
+---
+
+## Repo safeguards checklist
+
+**Branch protection**
+- Protect `main` and require PRs before merging
+- Restrict who can push to `main`
+
+**Tag protection**
+- Protect tag pattern `v*`
+- Allow only maintainers to push tags
+
+**GitHub Pages environment**
+- Allow deployments from tags (`v*`)
+- Remove required reviewers unless you want manual approval
+
+**Repository settings**
+- Disable Actions from forks if you want to control releases
+- Keep `output/resume.pdf` untracked to avoid history bloat
 ```
