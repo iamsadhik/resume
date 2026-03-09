@@ -2,6 +2,8 @@
 
 My resume, version-controlled and generated as a PDF on tag releases.
 
+Latest PDF (after tag release): `https://<OWNER>.github.io/<REPO>/resume.pdf`
+
 ## Setup
 
 **1. Clone the repo.**
@@ -11,6 +13,20 @@ cd <your-repo>
 ```
 
 **2. Make sure Docker Desktop is installed and running (for local generation).**
+
+---
+
+## Release flow
+
+Tag a release to generate a new PDF:
+```bash
+git tag vYYYY.MM.DD
+git push origin vYYYY.MM.DD
+```
+
+Artifacts:
+- GitHub Releases → `resume.pdf`
+- GitHub Pages → `/resume.pdf`
 
 ---
 
@@ -25,10 +41,6 @@ cd <your-repo>
 - Repo → Settings → Pages → Source: GitHub Actions
 
 **4. Tag a release to generate your PDF.**
-```bash
-git tag vYYYY.MM.DD
-git push origin vYYYY.MM.DD
-```
 
 Your PDF will be available at:
 - `https://<OWNER>.github.io/<REPO>/resume.pdf`
@@ -41,22 +53,8 @@ Your PDF will be available at:
 ```
 edit resume.json → push tag → GitHub Actions runs
 → Docker spins up RxResume → imports JSON → exports PDF
-→ PDF uploaded to the GitHub Release for that tag
+→ PDF uploaded to the GitHub Release and GitHub Pages
 ```
-
----
-
-## Branching strategy
-
-Each branch can be a different tailored version of your resume:
-
-| Branch | Purpose |
-|---|---|
-| `main` | Latest general resume |
-| `frontend-focused` | Tailored for frontend roles |
-| `senior-roles` | Tailored for senior positions |
-
-Each tag has a PDF attached in GitHub Releases.
 
 ---
 
