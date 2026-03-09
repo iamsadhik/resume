@@ -43,6 +43,33 @@ jobs:
           chmod +x scripts/generate_pdf.py
           python3 scripts/generate_pdf.py resume.json output/resume.pdf
 
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p pages
+          cp output/resume.pdf pages/resume.pdf
+          cat <<'EOF' > pages/index.html
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8" />
+              <meta name="viewport" content="width=device-width, initial-scale=1" />
+              <title>Resume</title>
+              <style>
+                html, body { height: 100%; margin: 0; }
+                iframe { width: 100%; height: 100%; border: 0; }
+              </style>
+            </head>
+            <body>
+              <iframe src="./resume.pdf" title="Resume PDF"></iframe>
+            </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages
+
       - name: Tear down stack
         if: always()
         run: docker compose -f docker-compose.ci.yml down
@@ -51,3 +78,17 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: output/resume.pdf
+
+  deploy-pages:
+    needs: generate-pdf
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
