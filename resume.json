@@ -71,9 +71,31 @@
           "position": "Senior Frontend Developer",
           "location": "Bangalore, India",
           "period": "March 2022 - May 2025",
+          "website": {
+            "url": "",
+            "label": ""
+          },
           "description": "<ul><li><p>Worked with enterprise clients across healthcare, insurance, and digital products building scalable web and mobile applications.</p></li><li><p>Collaborated with cross-functional teams to design performant frontend architectures and deliver production-grade applications.</p></li></ul><p><strong>Client Projects:</strong></p><ul><li><p><strong>HDFC ERGO Self-Help</strong>: Lead frontend developer implementing claims processing, document uploads, and insurance workflows. Integrated <strong>Strapi CMS</strong>. Tech: <strong>Next.js</strong>.</p></li><li><p><strong>HDFC ERGO ConveneX</strong>: Built an event management platform with admin portal, media gallery, and real-time event updates using <strong>Firebase</strong>. Tech: <strong>Next.js, Flutter</strong>.</p></li><li><p><strong>Antara AGEasy</strong>: Developed customer platform and admin portal including appointment scheduling, warehouse management, and recommendation engine. Improved SEO and performance using <strong>SSR</strong>, <strong>SSG</strong>, lazy loading and code splitting. Tech: <strong>Next.js, Flutter Web</strong>.</p></li><li><p><strong>Lyfe Apps (Lupin Digital Health)</strong>: Built healthcare apps integrating <strong>Google Fit</strong>, <strong>Apple Health</strong>, and <strong>iHealth</strong>. Implemented real-time consultations using <strong>PubNub</strong> and <strong>Jitsi</strong>. Tech: <strong>React Native, Next.js</strong>.</p></li><li><p><strong>Cubbies App</strong>: Built a children's interactive storytelling and music application using <strong>BLE</strong> connectivity to interact with a smart music box.</p></li><li><p><strong>HDFC ERGO Baltics Prototype</strong>: Developed prototype frontend demonstrating insurance purchase flows including policy selection and premium calculation.</p></li></ul>"
         }
       ]
+    },
+    "profiles": {
+      "title": "Profiles",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "education": {
+      "title": "Education",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "projects": {
+      "title": "Projects",
+      "columns": 1,
+      "hidden": false,
+      "items": []
     },
     "skills": {
       "title": "Skills",
@@ -81,34 +103,50 @@
       "hidden": false,
       "items": [
         {
+          "id": "javascript",
+          "hidden": false,
           "name": "JavaScript",
           "keywords": ["ES6+", "Async Programming"]
         },
         {
+          "id": "typescript",
+          "hidden": false,
           "name": "TypeScript",
           "keywords": ["Type Safety", "Large Scale Applications"]
         },
         {
+          "id": "react",
+          "hidden": false,
           "name": "React",
           "keywords": ["Hooks", "State Management", "Component Architecture"]
         },
         {
+          "id": "nextjs",
+          "hidden": false,
           "name": "Next.js",
           "keywords": ["SSR", "SSG", "Performance Optimization", "SEO"]
         },
         {
+          "id": "react-native",
+          "hidden": false,
           "name": "React Native",
           "keywords": ["Cross-platform mobile development"]
         },
         {
+          "id": "flutter",
+          "hidden": false,
           "name": "Flutter",
           "keywords": ["Mobile Apps", "Flutter Web"]
         },
         {
+          "id": "data-visualization",
+          "hidden": false,
           "name": "Data Visualization",
           "keywords": ["Charts", "Dashboards", "Analytics UI"]
         },
         {
+          "id": "tools",
+          "hidden": false,
           "name": "Tools",
           "keywords": ["Git", "Jira", "Figma"]
         }
