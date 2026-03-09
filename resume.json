@@ -62,7 +62,8 @@
             "url": "https://tursio.ai",
             "label": ""
           },
-          "description": "<ul><li><p>Designed and developed an <strong>interactive semantic data modeling interface</strong> using <strong>React Flow</strong>, enabling users to visually define tables, relationships, joins, and transformations to build semantic layers for enterprise analytics.</p></li><li><p>Implemented <strong>natural language search capabilities</strong> allowing users to query enterprise datasets in plain English, powered by semantic context graphs and structured data models to deliver accurate <strong>AI-driven insights</strong>.</p></li><li><p>Built <strong>interactive analytics and data visualization interfaces</strong>, including bar charts, dynamic filters, and metric-driven dashboards enabling <strong>self-service insights</strong> for business users.</p></li><li><p>Improved search page performance and reduced load times by migrating rendering and data handling to a <strong>client-side React architecture</strong>, enhancing responsiveness and user experience.</p></li></ul>"
+          "description": "<ul><li><p>Designed and developed an <strong>interactive semantic data modeling interface</strong> using <strong>React Flow</strong>, enabling users to visually define tables, relationships, joins, and transformations to build semantic layers for enterprise analytics.</p></li><li><p>Implemented <strong>natural language search capabilities</strong> allowing users to query enterprise datasets in plain English, powered by semantic context graphs and structured data models to deliver accurate <strong>AI-driven insights</strong>.</p></li><li><p>Built <strong>interactive analytics and data visualization interfaces</strong>, including bar charts, dynamic filters, and metric-driven dashboards enabling <strong>self-service insights</strong> for business users.</p></li><li><p>Improved search page performance and reduced load times by migrating rendering and data handling to a <strong>client-side React architecture</strong>, enhancing responsiveness and user experience.</p></li></ul>",
+          "roles": []
         },
         {
           "id": "gida-exp",
@@ -75,7 +76,8 @@
             "url": "",
             "label": ""
           },
-          "description": "<ul><li><p>Worked with enterprise clients across healthcare, insurance, and digital products building scalable web and mobile applications.</p></li><li><p>Collaborated with cross-functional teams to design performant frontend architectures and deliver production-grade applications.</p></li></ul><p><strong>Client Projects:</strong></p><ul><li><p><strong>HDFC ERGO Self-Help</strong>: Lead frontend developer implementing claims processing, document uploads, and insurance workflows. Integrated <strong>Strapi CMS</strong>. Tech: <strong>Next.js</strong>.</p></li><li><p><strong>HDFC ERGO ConveneX</strong>: Built an event management platform with admin portal, media gallery, and real-time event updates using <strong>Firebase</strong>. Tech: <strong>Next.js, Flutter</strong>.</p></li><li><p><strong>Antara AGEasy</strong>: Developed customer platform and admin portal including appointment scheduling, warehouse management, and recommendation engine. Improved SEO and performance using <strong>SSR</strong>, <strong>SSG</strong>, lazy loading and code splitting. Tech: <strong>Next.js, Flutter Web</strong>.</p></li><li><p><strong>Lyfe Apps (Lupin Digital Health)</strong>: Built healthcare apps integrating <strong>Google Fit</strong>, <strong>Apple Health</strong>, and <strong>iHealth</strong>. Implemented real-time consultations using <strong>PubNub</strong> and <strong>Jitsi</strong>. Tech: <strong>React Native, Next.js</strong>.</p></li><li><p><strong>Cubbies App</strong>: Built a children's interactive storytelling and music application using <strong>BLE</strong> connectivity to interact with a smart music box.</p></li><li><p><strong>HDFC ERGO Baltics Prototype</strong>: Developed prototype frontend demonstrating insurance purchase flows including policy selection and premium calculation.</p></li></ul>"
+          "description": "<ul><li><p>Worked with enterprise clients across healthcare, insurance, and digital products building scalable web and mobile applications.</p></li><li><p>Collaborated with cross-functional teams to design performant frontend architectures and deliver production-grade applications.</p></li></ul><p><strong>Client Projects:</strong></p><ul><li><p><strong>HDFC ERGO Self-Help</strong>: Lead frontend developer implementing claims processing, document uploads, and insurance workflows. Integrated <strong>Strapi CMS</strong>. Tech: <strong>Next.js</strong>.</p></li><li><p><strong>HDFC ERGO ConveneX</strong>: Built an event management platform with admin portal, media gallery, and real-time event updates using <strong>Firebase</strong>. Tech: <strong>Next.js, Flutter</strong>.</p></li><li><p><strong>Antara AGEasy</strong>: Developed customer platform and admin portal including appointment scheduling, warehouse management, and recommendation engine. Improved SEO and performance using <strong>SSR</strong>, <strong>SSG</strong>, lazy loading and code splitting. Tech: <strong>Next.js, Flutter Web</strong>.</p></li><li><p><strong>Lyfe Apps (Lupin Digital Health)</strong>: Built healthcare apps integrating <strong>Google Fit</strong>, <strong>Apple Health</strong>, and <strong>iHealth</strong>. Implemented real-time consultations using <strong>PubNub</strong> and <strong>Jitsi</strong>. Tech: <strong>React Native, Next.js</strong>.</p></li><li><p><strong>Cubbies App</strong>: Built a children's interactive storytelling and music application using <strong>BLE</strong> connectivity to interact with a smart music box.</p></li><li><p><strong>HDFC ERGO Baltics Prototype</strong>: Developed prototype frontend demonstrating insurance purchase flows including policy selection and premium calculation.</p></li></ul>",
+          "roles": []
         }
       ]
     },
@@ -105,58 +107,171 @@
         {
           "id": "javascript",
           "hidden": false,
+          "icon": "",
           "name": "JavaScript",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["ES6+", "Async Programming"]
         },
         {
           "id": "typescript",
           "hidden": false,
+          "icon": "",
           "name": "TypeScript",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["Type Safety", "Large Scale Applications"]
         },
         {
           "id": "react",
           "hidden": false,
+          "icon": "",
           "name": "React",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["Hooks", "State Management", "Component Architecture"]
         },
         {
           "id": "nextjs",
           "hidden": false,
+          "icon": "",
           "name": "Next.js",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["SSR", "SSG", "Performance Optimization", "SEO"]
         },
         {
           "id": "react-native",
           "hidden": false,
+          "icon": "",
           "name": "React Native",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["Cross-platform mobile development"]
         },
         {
           "id": "flutter",
           "hidden": false,
+          "icon": "",
           "name": "Flutter",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["Mobile Apps", "Flutter Web"]
         },
         {
           "id": "data-visualization",
           "hidden": false,
+          "icon": "",
           "name": "Data Visualization",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["Charts", "Dashboards", "Analytics UI"]
         },
         {
           "id": "tools",
           "hidden": false,
+          "icon": "",
           "name": "Tools",
+          "proficiency": "",
+          "level": 0,
           "keywords": ["Git", "Jira", "Figma"]
         }
       ]
+    },
+    "languages": {
+      "title": "Languages",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "interests": {
+      "title": "Interests",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "Volunteer",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "columns": 1,
+      "hidden": false,
+      "items": []
     }
   },
+  "customSections": [],
   "metadata": {
     "template": "onyx",
     "layout": {
-      "sidebarWidth": 35
-    }
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": ["summary", "experience", "projects", "education"],
+          "sidebar": ["skills", "profiles"]
+        }
+      ]
+    },
+    "css": {
+      "enabled": false,
+      "value": ""
+    },
+    "page": {
+      "gapX": 24,
+      "gapY": 24,
+      "marginX": 24,
+      "marginY": 24,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "#111111",
+        "text": "#111111",
+        "background": "#ffffff"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "Source Sans Pro",
+        "fontWeights": ["400"],
+        "fontSize": 11,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "Source Sans Pro",
+        "fontWeights": ["600"],
+        "fontSize": 12,
+        "lineHeight": 1.2
+      }
+    },
+    "notes": ""
   }
 }
