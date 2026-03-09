@@ -34,7 +34,7 @@
     "title": "Summary",
     "columns": 1,
     "hidden": false,
-    "content": "<p>Full-stack developer with 3+ years building scalable web products across <strong>React</strong>/<strong>Next.js</strong> and <strong>NestJS</strong>. Experienced in microservices and data platforms using <strong>Rust</strong>/<strong>Golang</strong>, <strong>gRPC</strong>/<strong>GraphQL</strong>/<strong>REST</strong>, <strong>PostgreSQL</strong>, and <strong>Docker</strong>, with a focus on fast, high-quality delivery in startup environments.</p>"
+    "content": "<p>Full-stack developer with 3+ years building scalable web products and <strong>system design</strong> across <strong>React</strong>/<strong>Next.js</strong> and <strong>NestJS</strong>. Experienced in <strong>microservices</strong> and data platforms using <strong>Rust</strong>/<strong>Golang</strong>, <strong>gRPC</strong>/<strong>GraphQL</strong>/<strong>REST</strong>, <strong>PostgreSQL</strong>, and <strong>Docker</strong>, delivering fast, high-quality results in startup environments.</p>"
   },
   "sections": {
     "profiles": {
@@ -444,7 +444,8 @@
       "body": {
         "fontFamily": "Open Sans",
         "fontWeights": [
-          "400"
+          "400",
+          "600"
         ],
         "fontSize": 10.5,
         "lineHeight": 1.5
