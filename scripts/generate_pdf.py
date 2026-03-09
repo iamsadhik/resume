@@ -36,6 +36,29 @@ def _slugify(value):
     return value.strip("-") or "resume"
 
 
+def _set_pdf_title(pdf_path, title):
+    try:
+        from pypdf import PdfReader, PdfWriter
+    except Exception:
+        print("⚠️ pypdf not installed; skipping PDF title update.")
+        return
+
+    reader = PdfReader(pdf_path)
+    writer = PdfWriter()
+    for page in reader.pages:
+        writer.add_page(page)
+    metadata = reader.metadata or {}
+    writer.add_metadata({
+        **{k: v for k, v in metadata.items() if isinstance(k, str)},
+        "/Title": title,
+    })
+
+    temp_path = f"{pdf_path}.tmp"
+    with open(temp_path, "wb") as handle:
+        writer.write(handle)
+    os.replace(temp_path, pdf_path)
+
+
 def _wait_for_health(base_url, timeout_s, interval_s):
     health_url = f"{base_url}/api/health"
     attempts = int(timeout_s / interval_s)
@@ -203,6 +226,7 @@ def main():
     with open(args.output_pdf, "wb") as handle:
         handle.write(pdf_body)
 
+    _set_pdf_title(args.output_pdf, name)
     print(f"✅ PDF saved to {args.output_pdf}")
     return 0
 
